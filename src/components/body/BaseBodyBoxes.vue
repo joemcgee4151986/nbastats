@@ -6,31 +6,50 @@
 
 
 <template>
-<div class="mt-4 text-subtitle-2">Box 1</div>
+<template class="boxes">Box 1</template>
 
-<v-card width="400">
+<v-card width="100%"
+
+id = "boxes">
   <template v-slot:title>
-   F
+   League Leaders
   </template>
 
 </v-card>
 
 
-<div class="mt-4 text-subtitle-2">Box 2</div>
 
-<v-card width="400">
+<v-card width="25%"
+color= "yellow">
   <template v-slot:title>
-  F
+   League Leaders
   </template>
+
+
+
+
 </v-card>
 
-  
+<v-card width="25%"
+color= "yellow">
+  <template v-slot:title>
+   League Leaders
+  </template>
 
-  
+
+
+
+</v-card>
 
 
 
 
-    
-    
+
 </template>
+<style>
+  #boxes{
+    display: flex;
+    color: white;
+    background-color:blue;
+  }
+</style>
