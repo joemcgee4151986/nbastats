@@ -4,61 +4,81 @@
 
 
 
-<template class = "flex-container">
+<template>
 
-<v-card
-
-id = "boxes">
+<v-card class = "column-one" id = "boxes">
   <template v-slot:title>
    League Leaders
   </template> 
-  
-  <v-card
-
-id = "box1">
-  <template v-slot:title>
-   League Leaders
-  </template> 
-  
- 
 </v-card>
-  
-</v-card>
-
-
-
-
 
   
  
 
+  
 
-  
-  
-  
-  
-  
+
+<v-card id = "box1">
+  <template v-slot:title>
+   POINTS PER GAME
   
 </template>
+
+</v-card>
+
+
+
+<v-card id = "box1">
+  <template v-slot:title>
+   REBOUNDS PER GAME
+  </template> 
+
+</v-card>
+
+<v-card id = "box1">
+  <template v-slot:title>
+   ASSISTS PER GAME
+  </template> 
+
+</v-card>
+
+<v-card id = "box1">
+  <template v-slot:title>
+  STEALS PER GAME
+  </template> 
+
+</v-card>
+
+
+
+
+  
+ 
+
+
+  
+  
+  
+  
+  
+  
+</template> 
 <style>
-#flex-container > template{
-  justify-content: space-between;
-}
+
+
 #boxes{
     display: flex;
     color: white;
     background-color:blue;
-    width:25%;
+    width:100%;
     justify-content: space-between;
   }
   #box1{
-    display: flex;
-    flex-wrap:wrap;
-    margin-right: 20px;
-    color: white;
-    background-color:GREY;
-    width: 25%;
-    
+    display: inline-flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  width: 25%;
+  background-color:GREY;
   }
   #box2{
     display: flex;
@@ -67,7 +87,7 @@ id = "box1">
     flex: 1;
     color: white;
     background-color:GREY;
-    width: 25%;
+    width: 100%;
     justify-content: space-between;
   }
 </style>
