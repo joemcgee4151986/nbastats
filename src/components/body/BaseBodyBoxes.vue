@@ -1,55 +1,73 @@
-
-
 <script setup>
 
 </script>
 
 
-<template>
-<template class="boxes">Box 1</template>
 
-<v-card width="100%"
+<template class = "flex-container">
+
+<v-card
 
 id = "boxes">
   <template v-slot:title>
    League Leaders
-  </template>
+  </template> 
+  
+  <v-card
 
-</v-card>
-
-
-
-<v-card width="25%"
-color= "yellow">
+id = "box1">
   <template v-slot:title>
    League Leaders
-  </template>
-
-
-
-
+  </template> 
+  
+ 
 </v-card>
-
-<v-card width="25%"
-color= "yellow">
-  <template v-slot:title>
-   League Leaders
-  </template>
-
-
-
-
+  
 </v-card>
 
 
 
 
 
+  
+ 
+
+
+  
+  
+  
+  
+  
+  
 </template>
 <style>
-  #boxes{
+#flex-container > template{
+  justify-content: space-between;
+}
+#boxes{
     display: flex;
     color: white;
     background-color:blue;
+    width:25%;
+    justify-content: space-between;
+  }
+  #box1{
+    display: flex;
+    flex-wrap:wrap;
+    margin-right: 20px;
+    color: white;
+    background-color:GREY;
+    width: 25%;
+    
+  }
+  #box2{
+    display: flex;
+    flex-wrap:wrap;
+    margin-right: 20px;
+    flex: 1;
+    color: white;
+    background-color:GREY;
+    width: 25%;
+    justify-content: space-between;
   }
 </style>
