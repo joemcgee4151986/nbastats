@@ -1,6 +1,7 @@
 <script setup>
 import BaseHeader from '@/components/BaseHeader.vue'
 import BaseBodyBoxes from '@/components/body/BaseBodyBoxes.vue'
+import BaseStats from '@/components/body/BaseStats.vue'
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import BaseBodyBoxes from '@/components/body/BaseBodyBoxes.vue'
   <main>
     <BaseHeader />
     <BaseBodyBoxes />
+    <BaseStats />
   </main>
 </template>
 

@@ -76,8 +76,8 @@
   #box1{
     display: inline-flex;
   flex-direction: column;
-  flex: 1 0 auto;
   width: 25%;
+  
   background-color:GREY;
   }
   #box2{
