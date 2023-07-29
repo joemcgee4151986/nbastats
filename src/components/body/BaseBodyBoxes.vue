@@ -1,23 +1,11 @@
 <script setup>
-
 </script>
-
-
-
 <template>
-
 <v-card class = "column-one" id = "boxes">
   <template v-slot:title>
    League Leaders
   </template> 
 </v-card>
-
-  
- 
-
-  
-
-
 <v-card id = "box1">
   <template v-slot:title>
    POINTS PER GAME
@@ -25,9 +13,6 @@
 </template>
 
 </v-card>
-
-
-
 <v-card id = "box1">
   <template v-slot:title>
    REBOUNDS PER GAME
