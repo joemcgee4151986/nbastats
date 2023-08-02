@@ -1,92 +1,67 @@
 <template>
-
-<v-card id = "stats1">
-  <template v-slot:title>
-  
+  <div id="app">
+    <div class="container">
+      <div class="box" v-for="(color, index) in boxes" :key="index" :style="{ backgroundColor: color }">
+        Box {{ index + 1 }}
+      </div>
+      <div class="box2" v-for="(color, index) in boxes2" :key="index" :style="{ backgroundColor: color }">
+        Box {{ index + 1 }}
+      </div>
+      <div class="box3" v-for="(color, index) in boxes3" :key="index" :style="{ backgroundColor: color }">
+        Box {{ index + 1 }}
+      </div>
+      
+    </div>
+  </div>
 </template>
 
-</v-card>
+<script>
+export default {
+  name: 'App',
+  data() {
+    return {
+      boxes: ['red'],boxes2:['blue'],boxes3:['black']
+    };
+  },
+};
 
-<v-card id = "stats1">
-  <template v-slot:title>
-  
-</template>
-
-</v-card>
-
-<v-card id = "stats1">
-  <template v-slot:title>
-  
-</template>
-
-</v-card>
-
-<v-card id = "stats1">
-  <template v-slot:title>
-  
-</template>
-
-</v-card>
-
-
-<v-card id = "stats-number">
-  
-
-</v-card>
-<v-card id = "stats-player">
-  
-
-
-</v-card>
+</script>
 
 
 
-<v-card id = "stats-names">
-  <template v-slot:title>
-  
-  </template>
-</v-card>
-</template>
-<style>
-#stats1{
-    display: inline-flex;
+
+
+<style scoped>
+.container {
+  display: flex;
   flex-direction: column;
-  width: 25%;
-  height: 150px;
-  background-color:white;
-  }
-  #stats2{
-    display: inline-flex;
-  flex-direction: column;
-  width: 25%;
-  height: 150px;
-  background-color:white;
-  
-  }
+}
 
-
-  #stats-number{
-    display: inline-flex;
-  flex-direction: column;
-  width: 25%;
-  height: 150px;
-  background-color:white;
- 
-  }
-  #stats-player{
-    display: inline-flex;
-  flex-direction: column;
+.box {
+  width: 5%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+.box2 {
   width: 10%;
   height: 100px;
-  background-color:white;
-  content:url("@/assets/hardenpic.jpeg");
-  }
-  #stats-names{
-    display: inline-flex;
-  flex-direction: column;
-  width: 25%;
-  height: 150px;
-  background-color:white;
-  }
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+.box3 {
+  width: 10%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
 </style>
