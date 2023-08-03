@@ -2,12 +2,15 @@
   <div id="app">
     <div class="container">
       <div class="box" v-for="(color, index) in boxes" :key="index" :style="{ backgroundColor: color }">
-        Box {{ index + 1 }}
+       2
       </div>
       <div class="box2" v-for="(color, index) in boxes2" :key="index" :style="{ backgroundColor: color }">
-        Box {{ index + 1 }}
+        <img src= "@/assets/hardenpic.jpeg" style = "min-width: 100% ">
       </div>
       <div class="box3" v-for="(color, index) in boxes3" :key="index" :style="{ backgroundColor: color }">
+        James Harden 13 G / Hou
+      </div>
+      <div class="box3" v-for="(color, index) in boxes4" :key="index" :style="{ backgroundColor: color }">
         Box {{ index + 1 }}
       </div>
       
@@ -20,7 +23,7 @@ export default {
   name: 'App',
   data() {
     return {
-      boxes: ['red'],boxes2:['blue'],boxes3:['black']
+      boxes: ['red'],boxes2:['white'],boxes3:['black'],boxes4:['green']
     };
   },
 };
@@ -34,12 +37,14 @@ export default {
 <style scoped>
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .box {
-  width: 5%;
-  height: 100px;
+  max-width:3%;
+  flex: 1;
+  flex-direction:row;
+min-height:100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,8 +52,10 @@ export default {
   font-weight: bold;
 }
 .box2 {
-  width: 10%;
-  height: 100px;
+  max-width:5%;
+ flex:1;
+ min-height:100%;
+  flex-direction:row;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,8 +63,20 @@ export default {
   font-weight: bold;
 }
 .box3 {
-  width: 10%;
-  height: 100px;
+  color:blue;
+  max-height:100%;
+  flex:1;
+  flex-direction:row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+.box4{
+  flex: 1;
+  flex-direction:row;
+min-height:100px;
   display: flex;
   justify-content: center;
   align-items: center;
