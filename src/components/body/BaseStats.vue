@@ -2,16 +2,16 @@
   <div id="app">
     <div class="container">
       <div class="box" v-for="(color, index) in boxes" :key="index" :style="{ backgroundColor: color }">
-       2
+       <p class = "p1">2</p>
       </div>
       <div class="box2" v-for="(color, index) in boxes2" :key="index" :style="{ backgroundColor: color }">
         <img src= "@/assets/hardenpic.jpeg" style = "min-width: 100% ">
       </div>
       <div class="box3" v-for="(color, index) in boxes3" :key="index" :style="{ backgroundColor: color }">
-        James Harden 13 G / Hou
+        <p class = "p2">James Harden 13 G / Hou</p>
       </div>
-      <div class="box3" v-for="(color, index) in boxes4" :key="index" :style="{ backgroundColor: color }">
-        Box {{ index + 1 }}
+      <div class="box4" v-for="(color, index) in boxes4" :key="index" :style="{ backgroundColor: color }">
+        <p class ="p3">28.0</p>
       </div>
       
     </div>
@@ -23,7 +23,7 @@ export default {
   name: 'App',
   data() {
     return {
-      boxes: ['red'],boxes2:['white'],boxes3:['black'],boxes4:['green']
+      boxes: ['white'],boxes2:['white'],boxes3:['white'],boxes4:['white']
     };
   },
 };
@@ -35,6 +35,15 @@ export default {
 
 
 <style scoped>
+.p1{
+  color:grey;
+}
+.p2{
+  color:blue;
+}
+.p3{
+  color:black;
+}
 .container {
   display: flex;
   flex-direction: row;
@@ -64,7 +73,7 @@ min-height:100px;
 }
 .box3 {
   color:blue;
-  max-height:100%;
+  max-width:13%;
   flex:1;
   flex-direction:row;
   display: flex;
@@ -74,6 +83,7 @@ min-height:100px;
   font-weight: bold;
 }
 .box4{
+  max-width:5%;
   flex: 1;
   flex-direction:row;
 min-height:100px;
