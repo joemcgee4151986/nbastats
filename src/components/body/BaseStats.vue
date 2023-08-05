@@ -23,7 +23,7 @@ export default {
   name: 'App',
   data() {
     return {
-      boxes: ['white'],boxes2:['white'],boxes3:['white'],boxes4:['white']
+      boxes: ['#F0F0F0'],boxes2:['#F0F0F0'],boxes3:['#F0F0F0'],boxes4:['#F0F0F0']
     };
   },
 };
@@ -50,6 +50,8 @@ export default {
 }
 
 .box {
+  margin-top:5px;
+  bottom: 5px;
   max-width:3%;
   flex: 1;
   flex-direction:row;
@@ -61,6 +63,8 @@ min-height:100px;
   font-weight: bold;
 }
 .box2 {
+  margin-top:5px;
+  bottom: 5px;
   max-width:5%;
  flex:1;
  min-height:100%;
@@ -72,6 +76,8 @@ min-height:100px;
   font-weight: bold;
 }
 .box3 {
+  margin-top:5px;
+  bottom: 5px;
   color:blue;
   max-width:13%;
   flex:1;
@@ -83,7 +89,8 @@ min-height:100px;
   font-weight: bold;
 }
 .box4{
-  max-width:5%;
+  margin-top:5px;
+  max-width:4%;
   flex: 1;
   flex-direction:row;
 min-height:100px;
