@@ -13,9 +13,98 @@
       <div class="box4" v-for="(color, index) in boxes4" :key="index" :style="{ backgroundColor: color }">
         <p class ="p3">28.0</p>
       </div>
+      <div class="box" v-for="(color, index) in boxes" :key="index" :style="{ backgroundColor: color }">
+       <p class = "p1">2</p>
+      </div>
+      <div class="box2" v-for="(color, index) in boxes2" :key="index" :style="{ backgroundColor: color }">
+        <img src= "@/assets/hardenpic.jpeg" style = "min-width: 100% ">
+      </div>
+      <div class="box3" v-for="(color, index) in boxes3" :key="index" :style="{ backgroundColor: color }">
+        <p class = "p2">James Harden 13 G / Hou</p>
+      </div>
+      <div class="box4" v-for="(color, index) in boxes4" :key="index" :style="{ backgroundColor: color }">
+        <p class ="p3">28.0</p>
+      </div>
+      <div class="box" v-for="(color, index) in boxes" :key="index" :style="{ backgroundColor: color }">
+       <p class = "p1">2</p>
+      </div>
+      <div class="box2" v-for="(color, index) in boxes2" :key="index" :style="{ backgroundColor: color }">
+        <img src= "@/assets/hardenpic.jpeg" style = "min-width: 100% ">
+      </div>
+      <div class="box3" v-for="(color, index) in boxes3" :key="index" :style="{ backgroundColor: color }">
+        <p class = "p2">James Harden 13 G / Hou</p>
+      </div>
+      <div class="box4" v-for="(color, index) in boxes4" :key="index" :style="{ backgroundColor: color }">
+        <p class ="p3">28.0</p>
+      </div>
+      <div class="box" v-for="(color, index) in boxes" :key="index" :style="{ backgroundColor: color }">
+       <p class = "p1">2</p>
+      </div>
+      <div class="box2" v-for="(color, index) in boxes2" :key="index" :style="{ backgroundColor: color }">
+        <img src= "@/assets/hardenpic.jpeg" style = "min-width: 100% ">
+      </div>
+      <div class="box3" v-for="(color, index) in boxes3" :key="index" :style="{ backgroundColor: color }">
+        <p class = "p2">James Harden 13 G / Hou</p>
+      </div>
+      <div class="box4" v-for="(color, index) in boxes4" :key="index" :style="{ backgroundColor: color }">
+        <p class ="p3">28.0</p>
+      </div>
       
     </div>
   </div>
+  <div id = "app">
+    <div class="container2">
+      <div class="box" v-for="(color, index) in boxes" :key="index" :style="{ backgroundColor: color }">
+       <p class = "p1">3</p>
+      </div>
+      <div class="box2" v-for="(color, index) in boxes2" :key="index" :style="{ backgroundColor: color }">
+        <img src= "@/assets/hardenpic.jpeg" style = "min-width: 100% ">
+      </div>
+      <div class="box3" v-for="(color, index) in boxes3" :key="index" :style="{ backgroundColor: color }">
+        <p class = "p2">James Harden 13 G / Hou</p>
+      </div>
+      <div class="box4" v-for="(color, index) in boxes4" :key="index" :style="{ backgroundColor: color }">
+        <p class ="p3">28.0</p>
+      </div>
+      <div class="box" v-for="(color, index) in boxes" :key="index" :style="{ backgroundColor: color }">
+       <p class = "p1">3</p>
+      </div>
+      <div class="box2" v-for="(color, index) in boxes2" :key="index" :style="{ backgroundColor: color }">
+        <img src= "@/assets/hardenpic.jpeg" style = "min-width: 100% ">
+      </div>
+      <div class="box3" v-for="(color, index) in boxes3" :key="index" :style="{ backgroundColor: color }">
+        <p class = "p2">James Harden 13 G / Hou</p>
+      </div>
+      <div class="box4" v-for="(color, index) in boxes4" :key="index" :style="{ backgroundColor: color }">
+        <p class ="p3">28.0</p>
+      </div>
+      <div class="box" v-for="(color, index) in boxes" :key="index" :style="{ backgroundColor: color }">
+       <p class = "p1">3</p>
+      </div>
+      <div class="box2" v-for="(color, index) in boxes2" :key="index" :style="{ backgroundColor: color }">
+        <img src= "@/assets/hardenpic.jpeg" style = "min-width: 100% ">
+      </div>
+      <div class="box3" v-for="(color, index) in boxes3" :key="index" :style="{ backgroundColor: color }">
+        <p class = "p2">James Harden 13 G / Hou</p>
+      </div>
+      <div class="box4" v-for="(color, index) in boxes4" :key="index" :style="{ backgroundColor: color }">
+        <p class ="p3">28.0</p>
+      </div>
+      <div class="box" v-for="(color, index) in boxes" :key="index" :style="{ backgroundColor: color }">
+       <p class = "p1">3</p>
+      </div>
+      <div class="box2" v-for="(color, index) in boxes2" :key="index" :style="{ backgroundColor: color }">
+        <img src= "@/assets/hardenpic.jpeg" style = "min-width: 100% ">
+      </div>
+      <div class="box3" v-for="(color, index) in boxes3" :key="index" :style="{ backgroundColor: color }">
+        <p class = "p2">James Harden 13 G / Hou</p>
+      </div>
+      <div class="box4" v-for="(color, index) in boxes4" :key="index" :style="{ backgroundColor: color }">
+        <p class ="p3">28.0</p>
+      </div>
+    
+  </div>
+</div>
 </template>
 
 <script>
@@ -45,6 +134,10 @@ export default {
   color:black;
 }
 .container {
+  display: flex;
+  flex-direction: row;
+}
+.container2 {
   display: flex;
   flex-direction: row;
 }
