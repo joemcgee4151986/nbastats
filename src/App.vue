@@ -14,6 +14,4 @@ import BaseStats from '@/components/body/BaseStats.vue'
   </main>
 </template>
 
-<style scoped>
 
-</style>
