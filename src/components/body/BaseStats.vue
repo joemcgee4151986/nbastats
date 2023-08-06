@@ -112,7 +112,7 @@ export default {
   name: 'App',
   data() {
     return {
-      boxes: ['#F0F0F0'],boxes2:['#F0F0F0'],boxes3:['#F0F0F0'],boxes4:['#F0F0F0']
+      boxes: ['#F0F0F0'],boxes2:['white'],boxes3:['#F0F0F0'],boxes4:['#F0F0F0']
     };
   },
 };
@@ -143,6 +143,7 @@ export default {
 }
 
 .box {
+  border: solid;
   margin-top:5px;
   bottom: 5px;
   max-width:3%;
@@ -156,6 +157,7 @@ min-height:100px;
   font-weight: bold;
 }
 .box2 {
+  border: solid;
   margin-top:5px;
   bottom: 5px;
   max-width:5%;
@@ -169,6 +171,7 @@ min-height:100px;
   font-weight: bold;
 }
 .box3 {
+  border: solid;
   margin-top:5px;
   bottom: 5px;
   color:blue;
@@ -182,6 +185,7 @@ min-height:100px;
   font-weight: bold;
 }
 .box4{
+  border-width: thick;
   margin-top:5px;
   max-width:4%;
   flex: 1;
