@@ -142,7 +142,7 @@
         <p class ="p3">28.0</p>
       </div>
       <div class="box" v-for="(color, index) in boxes" :key="index" :style="{ backgroundColor: color }">
-       <p class = "p1">4</p>
+       <p class = "p1">5</p>
       </div>
       <div class="box2" v-for="(color, index) in boxes2" :key="index" :style="{ backgroundColor: color }">
         <img src= "@/assets/hardenpic.jpeg" style = "min-width: 100% ">
