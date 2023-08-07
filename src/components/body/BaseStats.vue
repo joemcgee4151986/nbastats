@@ -102,6 +102,8 @@
       <div class="box4" v-for="(color, index) in boxes4" :key="index" :style="{ backgroundColor: color }">
         <p class ="p3">28.0</p>
       </div>
+      
+      
     
   </div>
 </div>
@@ -112,7 +114,7 @@ export default {
   name: 'App',
   data() {
     return {
-      boxes: ['#F0F0F0'],boxes2:['white'],boxes3:['#F0F0F0'],boxes4:['#F0F0F0']
+      boxes: ['white'],boxes2:['white'],boxes3:['white'],boxes4:['white']
     };
   },
 };
