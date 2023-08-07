@@ -139,7 +139,7 @@
         <p class = "p2">James Harden 13 G / Hou</p>
       </div>
       <div class="box4" v-for="(color, index) in boxes4" :key="index" :style="{ backgroundColor: color }">
-        <p class ="p3">28.0</p>
+        <p class ="p3">27.0</p>
       </div>
       <div class="box" v-for="(color, index) in boxes" :key="index" :style="{ backgroundColor: color }">
        <p class = "p1">5</p>
