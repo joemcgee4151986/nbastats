@@ -3,7 +3,7 @@ import { ref }from 'vue'
 const titleName = ref('title')
 </script>
 <template>
-    <div><h1 :class ="titleName">NBA.com/Stats<img id = logo src = "@/assets/header-image.jpg" ></h1></div>
+    <div><h1 :class ="titleName">NBA.com/Stats<img id = logo src = "/header-image.jpg" ></h1></div>
 </template>
 
 <style>
