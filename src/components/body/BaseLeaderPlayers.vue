@@ -22,7 +22,7 @@ export default {
   name: 'App',
   data() {
     return {
-      boxes:['white'],boxes2:['white'],boxes3:['white'],boxes4:['white']
+      boxes:['white'],boxes2:['white'],boxes3:['white'],boxes4:['gold']
     };
   },
 };
