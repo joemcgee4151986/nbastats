@@ -2,16 +2,16 @@
 <div id="app">
     <div class="container">
       <div class="box" v-for="(color, index) in boxes" :key="index" :style="{ backgroundColor: color }">
-        <img src= "/Src/Assets/Player.JPG" style = "max-width: 50% ">
+        <img :src= "image" alt= "@/Assets/Player.JPG" style = "max-width: 50% ">
       </div>
       <div class="box2" v-for="(color, index) in boxes2" :key="index" :style="{ backgroundColor: color }">
-        <img src= "/Src/Assets/Player.JPG"   style = "max-width: 50% ">
+        <img :src= "image"  alt ="@/Assets/Player.JPG"   style = "max-width: 50% ">
       </div>
       <div class="box3" v-for="(color, index) in boxes3" :key="index" :style="{ backgroundColor: color }">
-        <img src= "/Src/Assets/Player.JPG"  style = "max-width: 50% ">
+        <img :src= "image" alt = "@/Assets/Player.JPG"  style = "max-width: 50% ">
       </div>
       <div class="box4" v-for="(color, index) in boxes4" :key="index" :style="{ backgroundColor: color }">
-        <img src= "/Src/Assets/Player.JPG"  style = "max-width: 50% ">
+        <img :src= "image" alt ="@/Assets/Player.JPG" style = "max-width: 50% ">
       </div>
     </div>
 </div>
@@ -26,8 +26,9 @@ export default {
     };
   },
 };
-
+import image from '@/Assets/Player.JPG'
 </script>
+
 
 <style scoped>
 .box {
