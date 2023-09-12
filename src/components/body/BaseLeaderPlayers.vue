@@ -2,16 +2,16 @@
 <div id="app">
     <div class="container">
       <div class="box" v-for="(color, index) in boxes" :key="index" :style="{ backgroundColor: color }">
-        <img src= "/src/assets/Player.JPG" style = "max-width: 50% ">
+        <img src= "/src/assets/player.JPG" style = "max-width: 50% ">
       </div>
       <div class="box2" v-for="(color, index) in boxes2" :key="index" :style="{ backgroundColor: color }">
-        <img src= "/src/assets/Player.JPG"  style = "max-width: 50% ">
+        <img src= "/src/assets/player.JPG"  style = "max-width: 50% ">
       </div>
       <div class="box3" v-for="(color, index) in boxes3" :key="index" :style="{ backgroundColor: color }">
-        <img src= "/src/assets/Player.JPG"  style = "max-width: 50% ">
+        <img src= "/src/assets/player.JPG"  style = "max-width: 50% ">
       </div>
       <div class="box4" v-for="(color, index) in boxes4" :key="index" :style="{ backgroundColor: color }">
-        <img src= "/src/assets/Player.JPG"  style = "max-width: 50% ">
+        <img src= "/src/assets/player.JPG"  style = "max-width: 50% ">
       </div>
     </div>
 </div>
