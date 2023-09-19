@@ -4,7 +4,7 @@ const titleName = ref('title')
 import header from '@/Assets/Headerimage.JPG'
 </script>
 <template>
-    <div><h1 :class ="titleName">NBA.com/Stats<img :src = "header" alt ='@/Assets/Headerimage.JPG' ></h1></div>
+    <div><h1 :class ="titleName">NBA.com/Stats<img :src = "header" alt ='@/Assets/img/Headerimage.JPG' ></h1></div>
 </template>
 
 <style>
